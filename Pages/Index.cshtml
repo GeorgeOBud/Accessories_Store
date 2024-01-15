@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1>Welcome to The Management Front Page</h1>
+        <p>Check the stores products, inventory and sales.</p>
+        <button  
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/More">Learn More</a>
+            </li>
+        </button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <h2>Product</h2>
+
+            <p>Avalability</p>
+            <a href="https://localhost:7063/ProductSearch" class="btn btn-secondary">Check</a>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Stats</h2>
+
+            <p>Inventory</p>
+            <a href=" " class="btn btn-secondary">Check</a>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Sales</h2>
+
+            <p>Sales/Revenue</p>
+            <a href=" " class="btn btn-secondary">Check</a>
+        </div>
+
+    </div>
+</div>
+
